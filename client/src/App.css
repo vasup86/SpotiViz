@@ -1,0 +1,17 @@
+:root {
+  --card-height: 300px;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 99vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  color: white;
+  background: #191c29;
+}
